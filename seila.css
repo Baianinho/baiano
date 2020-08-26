@@ -29,26 +29,27 @@ color: white;
 
 }
 h1 {
-  font-family: Luckiest Guy;
+  font-family: "Luckiest Guy";
   font-size: 50px;
   margin-left:auto;
   margin-right: auto;
   text-align: center;
+  margin-top: 150px
 }
 h2 {
-  font-family: Luckiest Guy;
+  font-family: "Luckiest Guy";
   font-size: 30px;
-text-align: center;
+  text-align: center;
 }
 h3{
-  font-family: Luckiest Guy;
+  font-family: "Luckiest Guy";
   display: inline;
   font-size: 30px;
   margin-left: 40px;
   margin-right: 5px;
 }
 h4 {
-  font-family: Luckiest Guy;
+  font-family: "Luckiest Guy";
   display: inline;
   font-size: 30px;
   margin-left: 50px;
@@ -56,12 +57,38 @@ h4 {
 }
 
 a:link{
-  color: green;
+  color: red;
+}
+a:visited{
+ color: black;
 }
 a:hover{
-  color: white;
+  color: #fe7e01;
+  text-decoration: none;
 }
 
 #foto{
   width: 300px;
 }
+
+.button{
+  display: inline;
+  background-color: #c6b599;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  font-size: 20px;
+  padding: 20px;
+  width: 100px;
+  transition: all 0.1s;
+  cursor: pointer;
+  float: left;
+  position: relative;
+
+
+}
+ #b{
+ margin-left: 300px;
+
+ }
