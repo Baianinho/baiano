@@ -1,0 +1,67 @@
+html{
+  height: 100%;
+}
+
+body{
+
+background-image: url("zoro15.jpg");
+background-attachment: fixed;
+background-size: contain;
+font-family: cursive;
+font-size: 20px;
+color: white;
+}
+
+
+.borda{
+  margin: 4%;
+  border: 0px solid white;
+  padding: 5%;
+}
+
+
+#nami {
+  margin-top: 100px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h1 {
+  font-family: Luckiest Guy;
+  font-size: 50px;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+}
+h2 {
+  font-family: Luckiest Guy;
+  font-size: 30px;
+text-align: center;
+}
+h3{
+  font-family: Luckiest Guy;
+  display: inline;
+  font-size: 30px;
+  margin-left: 40px;
+  margin-right: 5px;
+}
+h4 {
+  font-family: Luckiest Guy;
+  display: inline;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a:link{
+  color: green;
+}
+a:hover{
+  color: white;
+}
+
+#foto{
+  width: 300px;
+}
